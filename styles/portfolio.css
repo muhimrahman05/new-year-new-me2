@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .banner-container{
+    width: 100%;
+    /* min-height: 100vh; */
+    background-image: url('../images/banner/banner1.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: right;
+    padding-top: 150px;
+    padding-bottom: 150px;
+ }
+ /* banner styles */
+
+ .banner-title{
+    padding-right: 230px;
+    font-weight: 700;
+    font-size: 65px;
+
+ }
+ .banner-description{
+    padding-right: 230px;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 24px;
+    color: #444343;
+ }
+ .button{
+    padding-right: 230px;
+    padding-top: 32px;
+
+    
+ }
+ .primary-button{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 25px;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 160px;
+height: 64px;
+font-weight: 600;
+font-size: 20px;
+ }
+/* my failure list style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.failure-container{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+    justify-content: space-between;
+}
+.failure-title{
+    color: black;
+    font-weight: 700;
+font-size: 40px;
+width: 288px;
+height: 94px;
+
+}
+.failure-description{
+color: #444343;
+padding-top: 24px;
+width: 416px;
+}
+.failure-list{
+color: #444343;
+list-style: none;
+padding-top: 16px;
+font-weight: 400px;
+font-size: 16px;
+}
+  /* my plans styles */
+.My-plans{
+    text-align: center;
+    margin-top: 130px;
+}
+.plans-container{
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+}
+.section-title{
+    padding-bottom: 50px;
+    font-weight: 700;
+font-size: 40px;
+}
+.plans-title{
+    padding-top: 24px;
+    padding-bottom: 16px;
+    font-weight: 700;
+font-size: 20px;
+
+}
+.plans-description{
+    font-weight: 500;
+font-size: 25px;
+
+color: #737272;
+}
+/* call to action styles */
+.cta{
+    height: 300px;
+    margin: 130px 230px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    padding-top: 70px;
+    padding-left: 60px;
+    font-size: 30px;
+    color: white;
+    border-radius: 8px;
+}
+
+.btn{
+    padding-top: 25px;
+}
+.cta-btn{
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: #F15B22;
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 8px;
+}
+/* Targated Skills styles */
+.targated-skills{
+    margin: 125px 0px;
+    height: 400px;
+    background-image: url('../images/taste_of_fall_blogpngpng.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 180px;
+}
+.targated-skills-title{
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+.targated-skills-description{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+/* future styles */
+.future{
+    display: flex;
+    gap: 320px;
+    background-color: black;
+    padding: 120px 220px;
+}
+ .future-container{
+    color: white;
+ }
+ .future-title{
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 15px;
+ }
+ .future-description{
+    font-weight: 400;
+    font-size: 16px;
+ }
+ .social-media{
+    display: flex;
+    gap: 20px;        
+ }
+ .contact{
+    list-style: none;
+    padding-top: 25px;
+    padding-bottom: 35px;
+ }
+.subscribe-title{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.future input{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: black;
+    border-color: white;
+    border-radius: 8px;
+}
+input{
+    height: 50px;
+}
+.subscribe-btn{
+    padding-top: 15px;
+}
